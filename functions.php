@@ -38,4 +38,5 @@ function scripts_footer(){
 add_action('after_setup_theme', 'setup'); //once the theme is initialize is going to pull the register function
 add_action('wp_enqueue_script','scripts_header');
 //add_action('wp_enqueue_script','scripts_header');
-?>
+/*Shortcodes */
+require_once('shortcodes/practice-areas.php');
