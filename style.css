@@ -4,3 +4,21 @@
  Description: Sample website create for a sample portfolio
  Version: 1.0.0
  */
+
+
+.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.elementor-kit-5 a {
+    color: #000000;
+    font-family: var( --e-global-typography-accent-font-family ), Sans-serif;
+    font-weight: var( --e-global-typography-accent-font-weight );
+}
+
+
+@media only screen and (max-width:767px){
+
+}
